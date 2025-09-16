@@ -7,78 +7,83 @@
     <title>Sign up form</title>
 </head>
 <body>
-    <div class="wrapper">
-
-        <div class="left-wrapper">
-            <div class="left-logo-content">
-                <div class="logo">
-                    <img src="/assets/odin-lined.png" alt="">
-                </div>
-                <div class="logo-text">
-                    ODIN
-                </div>
-            </div>
-        </div>
-        <div class="right-wrapper">
+    <div class="main">
+        <div class="wrapper">
     
-            <div class="top-text-section">
-                <div class="text-1">
-                    <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</h2>
-                </div>
-                <div class="text-2">
-                    <h2>You <em>know</em> you want to.</h2>
-                </div>
-            </div>
-        
-            <div class="form-section">
-                <h2>Lets do this!</h2>
-                <form action="" id="sign-up-form">
-                    <div class="form-wrapper">
-    
-                        <div class="form-contain">
-                            <div class="form-left" id="first-name">
-                                <label for="f-name">FIRST NAME</label>
-                                <input type="text" name="f-name" id="f-name">
-                            </div>
-                            <div class="form-left" id="email">
-                                <label for="email">EMAIL</label>
-                                <input type="email" name="email" id="email">
-                            </div>
-                            <div class="form-left" id="pass">
-                                <label for="pass">PASSWORD</label>
-                                <input type="password" name="pass" id="pass" pattern="(?=.*[a-z](?=.*[A-Z])(?=.*[@#$?&!])[A-Za-z\d@$!%*?&](?=.*\d){8,})"
-                                title="Password must be at least 8 characters, include one uppercase, one lowercase, one number, and one special character" required>
-                            </div>
-                        </div>
-                        
-                        <div class="form-contain">
-                            <div class="form-right" id="last-name">
-                                <label for="l-name">LAST NAME</label>
-                                <input type="text" name="l-name" id="l-name">
-                            </div>
-                            <div class="form-right" id="phone-number">
-                                <label for="phone-number">PHONE NUMBER</label>
-                                <input type="tel" name="phone-number" id="phone-number">
-                            </div>
-                            <div class="form-right" id="pass">
-                                <label for="confirm-pass">CONFIRM PASSWORD</label>
-                                <input type="password" name="confirm-pass" id="confirm-pass" required>
-                            </div>
-                        </div>
+            <div class="left-wrapper">
+                <div class="left-logo-content">
+                    <div class="logo">
+                        <img src="/assets/odin-lined.png" alt="">
                     </div>
-                </form>
+                    <div class="logo-text">
+                        ODIN
+                    </div>
+                </div>
+                <div class="photo-by">
+                    <h3>Photo by Branislav Rodman</h3>
+                </div>
             </div>
-            <div class="bottom-section">
-                <div class="button-section">
-                    <button type="submit" form="sign-up-form">Create Account</button>
+            <div class="right-wrapper">
+        
+                <div class="top-text-section">
+                    <div class="text-1">
+                        <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</h2>
+                    </div>
+                    <div class="text-2">
+                        <h2>You <em>know</em> you want to.</h2>
+                    </div>
                 </div>
-                <div class="log-in-section">
-                    <h3>Already have an account? <span>Log in</span></h3>
+            
+                <div class="form-section">
+                    <h2>Lets do this!</h2>
+                    <form action="" id="sign-up-form">
+                        <div class="form-wrapper">
+        
+                            <div class="form-contain">
+                                <div class="form-left" id="first-name">
+                                    <label for="f-name">FIRST NAME</label>
+                                    <input type="text" name="f-name" id="f-name">
+                                </div>
+                                <div class="form-left" id="email">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                                <div class="form-left" id="pass">
+                                    <label for="pass">PASSWORD</label>
+                                    <input type="password" name="pass" id="pass" pattern="(?=.*[a-z](?=.*[A-Z])(?=.*[@#$?&!])[A-Za-z\d@$!%*?&](?=.*\d){8,})"
+                                    title="Password must be at least 8 characters, include one uppercase, one lowercase, one number, and one special character" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-contain">
+                                <div class="form-right" id="last-name">
+                                    <label for="l-name">LAST NAME</label>
+                                    <input type="text" name="l-name" id="l-name">
+                                </div>
+                                <div class="form-right" id="phone-number">
+                                    <label for="phone-number">PHONE NUMBER</label>
+                                    <input type="tel" name="phone-number" id="phone-number">
+                                </div>
+                                <div class="form-right" id="pass">
+                                    <label for="confirm-pass">CONFIRM PASSWORD</label>
+                                    <input type="password" name="confirm-pass" id="confirm-pass" required>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
+                <div class="bottom-section">
+                    <div class="button-section">
+                        <button type="submit" form="sign-up-form">Create Account</button>
+                    </div>
+                    <div class="log-in-section">
+                        <h3>Already have an account? <span>Log in</span></h3>
+                    </div>
+                </div>
+        
             </div>
     
         </div>
-
     </div>
 </body>
 </html>

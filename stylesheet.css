@@ -21,6 +21,16 @@ h2 {
     font-size: 1.2rem;
 }
 
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
     width: 1400px;
     height: 900px;
@@ -33,17 +43,19 @@ h2 {
 
 .left-wrapper {
     width: 400px;
-    background:url("/assets/halie-west-25xggax4bSA-unsplash.jpg") no-repeat;
+    background:url("/assets/branislav-rodman-oKyZoJy03ZA-unsplash.jpg") no-repeat;
     background-size: cover;
     display: flex;
-    flex: 1 2;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 2;
 }
 
 .left-logo-content {
     width: 100%;
     /* height: 20px; */
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,8 +78,14 @@ img {
     color: white;
 }
 
+.photo-by {
+    color: #E5E7EB;
+    margin-bottom: 40px;
+}
 
-
+.photo-by > h3 {
+    font-size: 0.9rem;
+}
 
 
 .right-wrapper {
@@ -155,7 +173,7 @@ button {
     
     border: 0px;
     border-radius: 15px;
-    background-color: #596D48;
+    background-color: #cc4421;
 }
 
 h3 {
@@ -165,7 +183,7 @@ h3 {
 }
 
 h3 > span {
-    color: #596D48;
+    color: #cc4421;
     font-weight: bold;
 }
 
